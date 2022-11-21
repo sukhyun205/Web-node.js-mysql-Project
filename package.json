@@ -1,0 +1,34 @@
+{
+  "name": "nodebird",
+  "version": "1.0.0",
+  "description": "Express로 만드는 SNS서비스",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sukhyun205/Web-node.js-mysql-Project.git"
+  },
+  "author": "sukhyun205",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sukhyun205/Web-node.js-mysql-Project/issues"
+  },
+  "homepage": "https://github.com/sukhyun205/Web-node.js-mysql-Project#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.3.3",
+    "nunjucks": "^3.2.3",
+    "sequelize": "^6.25.7",
+    "sequelize-cli": "^6.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
